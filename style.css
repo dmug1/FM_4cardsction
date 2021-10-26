@@ -16,7 +16,7 @@ a .attribution { color: hsl(228, 45%, 44%); }
     left: 0;
     right: 0;  
 
-    display: flex-wrap;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -24,8 +24,11 @@ a .attribution { color: hsl(228, 45%, 44%); }
 }
 
 .cards-group{
-    display: flex-wrap;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;    
+    flex-direction: row;
+    padding: 2% 10%;
 }
 
 
