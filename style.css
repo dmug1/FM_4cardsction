@@ -15,13 +15,27 @@ a .attribution { color: hsl(228, 45%, 44%); }
     bottom: 0;
     left: 0;
     right: 0;  
+
+    display: flex-wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
 }
+
+.cards-group{
+    display: flex-wrap;
+    justify-content: center;
+}
+
 
 .card {
     border: 1px solid red;
     box-shadow: 5px 10px  #888888;
     width: 350px;
     height: 250px;
+
+
 
 }
 
