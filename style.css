@@ -9,10 +9,40 @@ body {
 
     background-color: hsl(0, 0%, 98%);
     height: 100%;
+    margin-top: 6%;
+
+}
+
+h1{
+    font-weight: 300;
+}
+
+#mainHead{
+    margin-bottom: 0px;
+    
+    color: hsl(229, 6%, 66%)
+}
+
+#powerdt {
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color:hsl(234, 12%, 34%);
 }
 
 .attribution { font-size: 11px; text-align: center; }
 a .attribution { color: hsl(228, 45%, 44%); }
+
+header{
+
+    margin-bottom: 50px;
+    
+}
+
+header span {
+    
+    color: hsl(229, 6%, 66%)
+}
 
 .container {   
     top: 0;
@@ -44,19 +74,22 @@ a .attribution { color: hsl(228, 45%, 44%); }
     display: flex;
     flex-wrap: wrap;        
     flex-direction: column;
+
+
 }
 
 .card {
     border-top: 3px solid;
-    box-shadow: 5px 10px 10px  #888888;
+    border-radius: 4px;
+    box-shadow: 5px 10px 10px  #c9c9c9;
     width: 350px;
     height: 250px;
     display: flex; 
     flex-direction: column;
+    flex-wrap: wrap;
 
     padding-left: 2%;
     padding-right: 2%;
-
 }
 
 img {
@@ -64,6 +97,14 @@ img {
     object-fit: cover;
     width: 60px;
     height: 60px;
+}
+
+span{
+    color: hsl(229, 6%, 66%)
+}
+
+h2 {
+    color:hsl(234, 12%, 34%)
 }
 
 #supervisor{
@@ -83,10 +124,35 @@ img {
 #calculator{
     border-top-color:hsl(212, 86%, 64%);
     align-items: flex-start;
+    margin-left: 10px;
+}
+
+/*img positioning*/
+#calculator img {
+    margin-top: 3.5em;
+    margin-left: 18em;
+}
+
+#karma img {
+    margin-top: 3.5em;
+    margin-left: 18em;
+}
+
+#teamBuilder img {
+    margin-top: 3.8em;
+    margin-left: 19em;
+}
+
+#supervisor img {
+    margin-top: 5em;
+    margin-left: 19em;
 }
 
 footer {
-    position: absolute;
+    
+  margin-top: 3em;
+  
+
     bottom: 0;
     width: 100%;
     
