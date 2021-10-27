@@ -1,6 +1,47 @@
+
+@media  (max-width : 1550px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200,400,600;
+        font-size: 15px;
+    
+        background-color: hsl(0, 0%, 98%);
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .container{
+        margin-top: 10em;
+    }
+
+    .cards-group{
+        display: flex;
+        flex-wrap: wrap;        
+        flex-direction: column;
+        padding: 0% 10%;
+        gap: 2%;
+        height: 100%;
+        align-items: center;
+        justify-content: center; 
+        margin-bottom: 5%;
+    }
+
+    footer { 
+        
+          padding-top: 18em!important;
+          padding-bottom: 5em!important;
+
+      }
+
+    }
+
+
+    /*regurlar rules*/
+
 html{
     height: 100%;
 }
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -157,3 +198,4 @@ footer {
     width: 100%;
     
 }
+
