@@ -40,19 +40,30 @@ a .attribution { color: hsl(228, 45%, 44%); }
     margin-bottom: 5%;
 }
 
+.vcardblock{
+    display: flex;
+    flex-wrap: wrap;        
+    flex-direction: column;
+}
 
 .card {
     border-top: 3px solid;
     box-shadow: 5px 10px 10px  #888888;
     width: 350px;
     height: 250px;
+    display: flex; 
+    flex-direction: column;
 
-
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
-.vcardblock{
-
+img {
+    align-items: flex-end;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
 }
 
 #supervisor{
