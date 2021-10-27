@@ -37,6 +37,7 @@ a .attribution { color: hsl(228, 45%, 44%); }
     height: 100%;
     align-items: center;
     justify-content: center; 
+    margin-bottom: 5%;
 }
 
 
