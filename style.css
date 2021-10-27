@@ -43,7 +43,7 @@ a .attribution { color: hsl(228, 45%, 44%); }
 
 .card {
     border-top: 3px solid;
-    box-shadow: 5px 10px  #888888;
+    box-shadow: 5px 10px 10px  #888888;
     width: 350px;
     height: 250px;
 
