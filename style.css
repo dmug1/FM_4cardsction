@@ -41,7 +41,7 @@ a .attribution { color: hsl(228, 45%, 44%); }
 
 
 .card {
-    border: 1px solid red;
+    border-top: 3px solid;
     box-shadow: 5px 10px  #888888;
     width: 350px;
     height: 250px;
@@ -56,16 +56,20 @@ a .attribution { color: hsl(228, 45%, 44%); }
 
 #supervisor{
     align-items: flex-start;
+    border-top-color: hsl(180, 62%, 55%);
 }
 
-#teamBuilder{    
+#teamBuilder{   
+    border-top-color:hsl(0, 78%, 62%) ;
 }
 
 #karma{
     margin-top: 10%;
+    border-top-color:hsl(34, 97%, 64%);
 }
 
 #calculator{
+    border-top-color:hsl(212, 86%, 64%);
     align-items: flex-start;
 }
 
